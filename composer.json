@@ -5,7 +5,7 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^8.1",
+        "php": "^8.0|^8.1",
         "genealabs/laravel-model-caching": "^0.12.5",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
