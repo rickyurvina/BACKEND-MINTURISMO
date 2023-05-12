@@ -25,7 +25,6 @@ use App\Http\Controllers\Auth\AuthController;
 */
 
 Route::group([
-    'middleware' => 'api',
     'prefix' => 'form'
 ], function () {
     Route::get('/', [FormController::class, 'getAll']);
