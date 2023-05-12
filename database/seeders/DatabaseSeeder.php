@@ -16,18 +16,18 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-//        $this->call(Permissions::class);
-//        Installer::createUser('Administrador', 'daniel.arboleda@cgesplan.com.ec', 'cgesplan1234');
-//        $this->call(ComponentsTableSeeder::class);
-//        $this->call(SubTopicsTableSeeder::class);
-//        $this->call(EstablishmentTypesTableSeeder::class);
-//        $this->call(FormsTableSeeder::class);
-//        $this->call(FormsComponentsTableSeeder::class);
-//        $this->call(CatalogGeographicClassifierSeeder::class);
-//        $this->call(QuestionsTableSeeder::class);
-//        $this->call(QuestionSubTopicTableSeeder::class);
-//        $this->call(EstablishmentTypeQuestionsTableSeeder::class);
-//        $this->call(QuestionsDependentsTableSeeder::class);
-        $this->call(CompleteMissingResults::class);
+        $this->call(Permissions::class);
+        Installer::createUser('Administrador', 'ricky@mail.com', 'cgesplan1234');
+        $this->call(ComponentsTableSeeder::class);
+        $this->call(SubTopicsTableSeeder::class);
+        $this->call(EstablishmentTypesTableSeeder::class);
+        $this->call(FormsTableSeeder::class);
+        $this->call(FormsComponentsTableSeeder::class);
+        $this->call(CatalogGeographicClassifierSeeder::class);
+        $this->call(QuestionsTableSeeder::class);
+        $this->call(QuestionSubTopicTableSeeder::class);
+        $this->call(EstablishmentTypeQuestionsTableSeeder::class);
+        $this->call(QuestionsDependentsTableSeeder::class);
+//        $this->call(CompleteMissingResults::class);
     }
 }
